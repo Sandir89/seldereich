@@ -4,8 +4,6 @@
 -3 -> нет
 7 -> нет
 
-*/ 
-
 Console.WriteLine("Введите число:");
             num = Convert.ToInt32(Console.ReadLine());
 
@@ -67,13 +65,13 @@ int num_a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число: ");
 int num_b = Convert.ToInt32(Console.ReadLine());
 
-if (num_a > num_b)
+    if (num_a > num_b)
 {
-    Console.WriteLine("Первое число " + num_1 + " больше чем второе " + num_2); 
+        Console.WriteLine("Первое число " + num_1 + " больше чем второе " + num_2); 
 }
-    else
+        else
 {
-    Console.WriteLine("Второе число " + num_2 + " больше чем первое " + num_1);
+        Console.WriteLine("Второе число " + num_2 + " больше чем первое " + num_1);
 }
 
 /Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
